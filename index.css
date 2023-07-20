@@ -40,14 +40,18 @@ h1,h3{
   .active {
   
     color: white;
-  }
-  .header{
-    /* min-height: 100vh; */
+  }.header{
     margin-top: 100px;
     display: flex;
     width: 100%;
     height: auto;
-    margin-left: -100px;
+    /* margin: auto; */
+    width: 80%;
+    padding: 10px;
+  }
+  .left{
+    text-align: left;
+    margin-right: 75px;
   }
 
   .button {
@@ -65,8 +69,7 @@ h1,h3{
     font-weight: 400;
     box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.3);
     font-weight: 400;
-    /* border: 1px solid #eee; */
-justify-content: space-between;
+    justify-content: space-between;
   }
   
   .button1 {background-color: #1ADB80;} 
